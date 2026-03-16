@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hanin | Portfolio</title>
+
+  <!-- Fonts (very close to the design) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<header class="nav-wrap">
+  <nav class="nav">
+   <a class="brand" href="#home">Hanin<span class="dot">.</span></a>
+
+<!-- Toggle checkbox (hidden) -->
+<input type="checkbox" id="navToggle" class="nav-toggle">
+
+<!-- Burger icon -->
+<label for="navToggle" class="burger" aria-label="Open Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
+<!-- Links -->
+<div class="nav-links">
+  <a href="#about"><span>01.</span> About</a>
+  <a href="#education"><span>02.</span> Education</a>
+  <a href="#work"><span>03.</span> What I Work On</a>
+  <a href="#skills"><span>04.</span> Skills</a>
+  <a href="#contact"><span>05.</span> Contact</a>
+</div>
+
+<!-- Overlay to close when click outside -->
+<label for="navToggle" class="nav-overlay"></label>
+  </nav>
+</header>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+        <div class="kicker">Hello, I am</div>
+
+        <h1 class="hero-title">Hanin Reda</h1>
+
+        <h2 class="hero-sub">IT Student &amp; Aspiring Developer</h2>
+
+        <p class="hero-desc">
+          Motivated IT student with a <span class="accent">perfect 4.0/4.0 GPA</span> at Lebanese International
+          University. Passionate about software development, AI integration, and web technologies. Eager to apply
+          technical skills in real-world projects and internships.
+        </p>
+
+        <div class="meta">
+          <i class="bx bx-map"></i>
+          <span>Tyre, Lebanon</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn" href="#contact">
+            Get In Touch <i class="bx bx-down-arrow-alt"></i>
+          </a>
+
+          <div class="mini-icons">
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/hanin-reda-a14482382"
+     target="_blank"
+     rel="noopener"
+     aria-label="LinkedIn">
+    <i class="bx bxl-linkedin-square"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:m8529789@gmail.com"
+     aria-label="Email">
+    <i class="bx bx-envelope"></i>
+  </a>
+
+<a href="https://wa.me/96176167921?text=Hello%20Hanin,%20I%20saw%20your%20portfolio!"
+   target="_blank"
+   aria-label="WhatsApp">
+  <i class="bx bxl-whatsapp"></i>
+</a>
+</div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-right">
+        <div class="avatar-ring">
+          <!-- Put your photo here: /assets/profile.jpg -->
+          <img src="profile.jpeg" alt="Profile" class="avatar"/>
+        </div>
+      </div>
+
+    </div>
+
+    
+  </main>
+<section id="about" class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <div class="section-num">01.</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+
+      <!-- LEFT TEXT -->
+      <div class="about-left">
+        <p>
+          I'm <span class="accent-text">Hanin Hassan Reda</span>, a motivated IT student at the
+          <span class="accent-text">Lebanese International University (LIU)</span>, currently entering my third year of a
+          Bachelor of Information Technology. With a perfect 4.0/4.0 GPA, I have a strong academic background in IT and Computer Science.
+        </p>
+
+        <p>
+          I'm passionate about turning ideas into reality through code. My interests span software development, AI integration,
+          and web technologies. I thrive in environments that challenge me to learn and grow, and I'm always eager to take on new projects.
+        </p>
+
+        <p>
+          I'm currently seeking internship opportunities and real-world projects where I can apply my technical skills,
+          collaborate with talented teams, and make a meaningful impact in the tech industry.
+        </p>
+
+        <div class="quote">
+          <span class="quote-icon">✽</span>
+          <em>"Believe in yourself and all that you are."</em>
+        </div>
+      </div>
+
+      <!-- RIGHT CARDS -->
+      <div class="about-cards">
+
+        <div class="card">
+          <div class="card-ico"><i class="bx bxs-graduation"></i></div>
+          <h3>Academic Excellence</h3>
+          <p>Perfect 4.0/4.0 GPA at LIU with consistent placement on the President's Honor List every semester.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-ico"><i class="bx bx-globe"></i></div>
+          <h3>Web Development</h3>
+          <p>Building websites and web applications using HTML, CSS, JavaScript, PHP, and modern frameworks.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-ico"><i class="bx bx-code-alt"></i></div>
+          <h3>AI &amp; Software Engineering</h3>
+          <p>Interested in AI integration and software engineering, combining technical skills with innovative thinking.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-ico"><i class="bx bxs-badge-check"></i></div>
+          <h3>Cisco Certified</h3>
+          <p>Certified in Introduction to Networks and Network Security from Cisco, with strong networking foundations.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+  <section id="education" class="section">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-head">
+      <div class="section-num">02.</div>
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <!-- Main Education Card -->
+    <div class="edu-card">
+
+      <div class="edu-left">
+        <div class="edu-date">2023 — PRESENT</div>
+        <div class="edu-icon">
+          <i class="bx bxs-graduation"></i>
+        </div>
+      </div>
+
+      <div class="edu-right">
+        <h3>Bachelor of Information Technology (IT)</h3>
+        <div class="edu-school">Lebanese International University (LIU)</div>
+
+        <p>
+          Completed Year 1 & Year 2, currently entering third year.
+          Focus on software engineering development, networking, and web projects.
+          Maintained a perfect GPA throughout all semesters.
+        </p>
+
+        <div class="edu-tags">
+          <span>GPA: 4.0/4.0</span>
+          <span>Software Engineering</span>
+          <span>Networking</span>
+          <span>Web Development</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Certifications + Achievements -->
+    <div class="edu-grid">
+
+      <!-- Certifications -->
+      <div>
+        <h4 class="mini-title">CERTIFICATIONS</h4>
+
+        <div class="mini-card">
+          <i class="bx bx-shield"></i>
+          <div>
+            <strong>Introduction to Networks</strong>
+            <span>Cisco</span>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-shield"></i>
+          <div>
+            <strong>Network Security</strong>
+            <span>Cisco</span>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-shield"></i>
+          <div>
+            <strong>Introduction to Networks</strong>
+            <span>LIU</span>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-shield"></i>
+          <div>
+            <strong>Network Security</strong>
+            <span>LIU</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div>
+        <h4 class="mini-title">ACHIEVEMENTS</h4>
+
+        <div class="mini-card">
+          <i class="bx bx-award"></i>
+          <div><strong>Fall 2023-2024 President's Honor List</strong></div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-award"></i>
+          <div><strong>Spring 2023-2024 President's Honor List</strong></div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-award"></i>
+          <div><strong>Fall 2024-2025 President's Honor List</strong></div>
+        </div>
+
+        <div class="mini-card">
+          <i class="bx bx-award"></i>
+          <div><strong>Spring 2024-2025 President's Outstanding Undergraduate Recognition Award</strong></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <section id="work" class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <div class="section-num">03.</div>
+      <h2 class="section-title">What I Work On</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <p class="section-desc">
+      Here are the areas and types of projects I'm passionate about. From web development and e-commerce to AI integration
+      and networking, I love building solutions that make an impact.
+    </p>
+
+    <div class="work-list">
+
+      <!-- 01 -->
+      <article class="work-card">
+        <div class="work-no">01</div>
+
+        <div class="work-content">
+          <h3>Online Appointment Booking System</h3>
+          <p>
+            A beauty center appointment booking application designed as a software engineering project. Features include
+            registration, login/logout, booking appointments, waitlists, service selection, payment processing, notifications,
+            live chat, and AI interaction.
+          </p>
+
+          <div class="chips">
+            <span>Figma</span>
+            <span>UI/UX</span>
+            <span>Software Engineering</span>
+            <span>Prototyping</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="work-card">
+        <div class="work-no">02</div>
+
+        <div class="work-content">
+          <h3>Online Cosmetics Store</h3>
+          <p>
+            An e-commerce website for cosmetics built from scratch. Features product browsing, shopping cart,
+            checkout functionality, and a responsive user interface.
+          </p>
+
+          <div class="chips">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="work-card">
+        <div class="work-no">03</div>
+
+        <div class="work-content">
+          <h3>Full Stack Web Applications</h3>
+          <p>
+            Building modern, responsive web applications using frontend technologies like HTML, CSS, and JavaScript,
+            along with backend solutions using PHP and Java.
+          </p>
+
+          <div class="chips">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>Java</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04 -->
+      <article class="work-card">
+        <div class="work-no">04</div>
+
+        <div class="work-content">
+          <h3>AI &amp; Software Integration</h3>
+          <p>
+            Exploring the intersection of artificial intelligence and software development, integrating smart features into
+            web applications and studying machine learning concepts.
+          </p>
+
+          <div class="chips">
+            <span>AI</span>
+            <span>Software Engineering</span>
+            <span>Problem Solving</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05 -->
+      <article class="work-card">
+        <div class="work-no">05</div>
+
+        <div class="work-content">
+          <h3>Networking &amp; Security</h3>
+          <p>
+            Working with networking fundamentals and security protocols, backed by Cisco certifications in Introduction to
+            Networks and Network Security.
+          </p>
+
+          <div class="chips">
+            <span>Networking</span>
+            <span>Security</span>
+            <span>Cisco</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06 -->
+      <article class="work-card">
+        <div class="work-no">06</div>
+
+        <div class="work-content">
+          <h3>UI/UX Design &amp; Prototyping</h3>
+          <p>
+            Creating user-centered designs and interactive prototypes using Figma, focusing on intuitive user experiences
+            and clean visual interfaces.
+          </p>
+
+          <div class="chips">
+            <span>Figma</span>
+            <span>UI Design</span>
+            <span>Prototyping</span>
+            <span>User Research</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <section id="skills" class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <div class="section-num">04.</div>
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- LEFT COLUMN -->
+      <div class="skills-col">
+
+        <h4 class="skills-title">PROGRAMMING &amp; WEB</h4>
+
+        <div class="skill">
+          <div class="skill-top"><span>HTML / CSS</span><span class="pct">92%</span></div>
+          <div class="bar"><div class="fill" style="width:92%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>JavaScript</span><span class="pct">88%</span></div>
+          <div class="bar"><div class="fill" style="width:88%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>React</span><span class="pct">82%</span></div>
+          <div class="bar"><div class="fill" style="width:82%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Java</span><span class="pct">78%</span></div>
+          <div class="bar"><div class="fill" style="width:78%"></div></div>
+        </div>
+
+        <h4 class="skills-title" style="margin-top:34px;">NETWORKING &amp; SECURITY</h4>
+
+        <div class="skill">
+          <div class="skill-top"><span>Introduction to Networks</span><span class="pct">85%</span></div>
+          <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Network Security</span><span class="pct">82%</span></div>
+          <div class="bar"><div class="fill" style="width:82%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Cisco Technologies</span><span class="pct">78%</span></div>
+          <div class="bar"><div class="fill" style="width:78%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Protocols &amp; Troubleshooting</span><span class="pct">75%</span></div>
+          <div class="bar"><div class="fill" style="width:75%"></div></div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="skills-col">
+
+        <h4 class="skills-title">SOFTWARE &amp; TOOLS</h4>
+
+        <div class="skill">
+          <div class="skill-top"><span>VS Code</span><span class="pct">95%</span></div>
+          <div class="bar"><div class="fill" style="width:95%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Figma</span><span class="pct">85%</span></div>
+          <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>MS Office</span><span class="pct">92%</span></div>
+          <div class="bar"><div class="fill" style="width:92%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>GitHub</span><span class="pct">80%</span></div>
+          <div class="bar"><div class="fill" style="width:80%"></div></div>
+        </div>
+
+        <h4 class="skills-title" style="margin-top:34px;">SOFT SKILLS</h4>
+
+        <div class="skill">
+          <div class="skill-top"><span>Problem Solving</span><span class="pct">90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Teamwork</span><span class="pct">92%</span></div>
+          <div class="bar"><div class="fill" style="width:92%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Communication</span><span class="pct">88%</span></div>
+          <div class="bar"><div class="fill" style="width:88%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-top"><span>Quick Learner</span><span class="pct">95%</span></div>
+          <div class="bar"><div class="fill" style="width:95%"></div></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Technologies Panel -->
+    <div class="tech-panel">
+      <div class="tech-title">TECHNOLOGIES I WORK WITH</div>
+
+      <div class="tech-chips">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>React</span><span>Java</span>
+        <span>Figma</span><span>VS Code</span><span>MS Office</span><span>GitHub</span>
+        <span>Networking</span><span>Security</span><span>SQL</span><span>Machine Learning</span>
+        <span class="wide">AI Integration</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="contact" class="section contact">
+  <div class="container">
+
+
+
+    <!-- Center content -->
+    <div class="contact-center">
+      <div class="contact-kicker">05. What's Next?</div>
+      <h2 class="contact-title">Get In Touch</h2>
+
+      <p class="contact-desc">
+        I'm currently looking for internship opportunities and collaborative projects where I can learn and grow.
+        Whether you have a question, a project idea, or just want to connect — my inbox is always open!
+      </p>
+
+      <!-- CV buttons -->
+      <div class="contact-actions">
+        <a class="btn-outline" href="Hanin-Reda-CV.pdf" target="_blank" rel="noopener">
+          <i class="bx bx-file"></i> View CV
+        </a>
+
+        <a class="btn" href="Hanin-Reda-CV.pdf" download>
+          <i class="bx bx-download"></i> Download CV
+        </a>
+      </div>
+
+      <!-- Contact info -->
+      <div class="contact-info">
+        <a href="mailto:m8529789@gmail.com" class="info-line">
+          <i class="bx bx-envelope"></i>
+          <span>m8529789@gmail.com</span>
+        </a>
+
+        <a href="tel:+96176167921" class="info-line">
+          <i class="bx bx-phone"></i>
+          <span>+961 76 167 921</span>
+        </a>
+      </div>
+
+     
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navToggle.checked = false;
+    });
+  });
+</script>
+</body>
+</html>
